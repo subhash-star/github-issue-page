@@ -1,25 +1,27 @@
-
-.survey{
-  /* background-color: chocolate; */
-  /* width: 200px;
-  height: 60px; */
-  margin: 20px;
-  /* text-align: center; */
-  font-family:'Lucida Sans', 'Lucida Sans Regular';
-  position:fixed;
-  top:40%;
-  left: 40%;
-}
-.btn{
-  background-color: saddlebrown;
-  height: 50px;
-  width: 200px;
-  margin: 30px 0px;
+.App {
   text-align: center;
-  padding-top: 15px;
-  box-sizing: border-box;
-  font-size: large;
-  font-weight: 700;
-  border-radius: 5px;
-  color: azure;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.badge {
+  line-height: 5;
+  font-size: 100%;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
 }
